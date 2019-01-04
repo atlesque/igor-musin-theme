@@ -1,0 +1,57 @@
+.site-main {
+  padding-top: 10px;
+}
+
+article.type-attachment,
+article.category-albums {
+  padding-top: 4%;
+}
+
+article.category-albums,
+article.format-gallery {
+  margin-top: 10px !important;
+}
+
+.site-header {
+  margin-top: 10%;
+}
+
+.site-header,
+.main-navigation,
+.widget_media_image {
+  margin-bottom: 2em;
+}
+
+.type-attachment .entry-header,
+.type-attachment .entry-footer {
+  display: none;
+}
+
+.entry-attachment {
+  text-align: center;
+}
+
+.type-attachment .entry-attachment img {
+  max-height: 80vh;
+  width: auto;
+}
+
+.nav-next {
+  float: right;
+}
+
+.nav-next::before {
+  display: none;
+}
+
+.format-gallery .entry-footer {
+  display: none;
+}
+
+.category .page-header {
+  display: none;
+}
+
+aside.widget {
+  margin-bottom: 2em;
+}
